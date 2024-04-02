@@ -1,8 +1,8 @@
 const pokemonList = document.getElementById('pokemonList')
 const loadMoreButton = document.getElementById('loadMoreButton')
 
-const maxRecords = 649
-let limit = 649;
+const maxRecords = 1500
+let limit = 1500;
 let offset = 0;
 
 function loadPokemonItens(offset, limit) {
